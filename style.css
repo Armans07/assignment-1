@@ -16,12 +16,12 @@ nav {
 ul {
   display: flex;
   list-style: none;
-  gap: 10px;
+  gap: 20px;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: #575757;
 }
 
 .register-button {
