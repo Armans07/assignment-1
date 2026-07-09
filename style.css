@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    align-items: center;
+    padding: 18px 8%;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.skyColor{
+    color: #00BFFF;
+}
