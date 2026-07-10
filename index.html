@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
       rel="stylesheet"
     />
 
@@ -18,11 +18,10 @@
   <body>
     <!-- Navigation Bar -->
     <nav>
-      <!-- Nav logo -->
       <div class="logo">
         <img src=".//assets/logo.png" alt="Logo" />
       </div>
-      <!-- Nav links -->
+
       <ul>
         <li><a href="#">Speakers</a></li>
         <li><a href="#">Schedule</a></li>
@@ -30,7 +29,7 @@
         <li><a href="#">Venue</a></li>
         <li><a href="#">Blog</a></li>
       </ul>
-      <!-- Nav buttons -->
+
       <div class="nav-buttons">
         <button class="register-button">Register Now</button>
       </div>
@@ -50,5 +49,95 @@
         <button class="register-button">Register Now</button>
       </div>
     </header>
+
+    <main>
+      <!-- Speakers Section -->
+
+      <section class="speakers-section">
+        <h1>Meet the Speakers</h1>
+        <div class="speakers-cards">
+          <div>
+            <img src="./assets/andrej.png" alt="Speaker 1" />
+            <p class="speakers-designation">AI / ML</p>
+            <h2 class="speakers-name">Andrej Karpathy</h2>
+            <p class="speakers-company">Pretraining team, Anthropic</p>
+          </div>
+
+          <div>
+            <img src="./assets//demis.png" alt="Speaker 2" />
+            <p class="speakers-designation">Cloud & DevOps</p>
+            <h2 class="speakers-name">Demis Hassabis</h2>
+            <p class="speakers-company">Co-Founder and CEO, Google DeepMind</p>
+          </div>
+
+          <div>
+            <img src="./assets/gary.png" alt="Speaker 3" />
+            <p class="speakers-designation">Frontend</p>
+            <h2 class="speakers-name">Gary Marcus</h2>
+            <p class="speakers-company">Staff Engineer, Vercel</p>
+          </div>
+
+          <div>
+            <img src="./assets/mustafa.png" alt="Speaker 4" />
+            <p class="speakers-designation">Security</p>
+            <h2 class="speakers-name">Mustafa Suleyman</h2>
+            <p class="speakers-company">CEO of Microsoft AI</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Pricing Section -->
+
+      <section class="pricing-section">
+        <h1>Secure Your Spot</h1>
+        <p class="pricing-description">
+          Early-bird pricing ends August 15, 2026.
+        </p>
+
+        <div class="pricing-card">
+          <div class="pricing-card-1">
+            <p class="pricing-category">STANDARD</p>
+            <h2 class="price">$399</h2>
+            <p class="pricing-subtitle">per person</p>
+            <ul>
+              <li>Access to all 3 conference days</li>
+              <li>2 workshop sessions</li>
+              <li>Networking lunch & coffee breaks</li>
+              <li>Conference swag bag</li>
+              <li>Digital recordings (30 days)</li>
+            </ul>
+            <button class="register-button">Get Started</button>
+          </div>
+          <div class="pricing-card-2">
+            <p class="pricing-category">Pro</p>
+            <h2 class="price">$749</h2>
+            <p class="pricing-subtitle">per person</p>
+            <hr class="pricing-divider" style="border: 0.1px solid #888888; margin: 20px 0;" />
+            <ul>
+              <li>Everything in Standard</li>
+              <li>Unlimited workshop access</li>
+              <li>VIP networking dinner</li>
+              <li>Lifetime recording access</li>
+              <li>1-on-1 mentorship (30 min)</li>
+            </ul>
+            <button class="register-button">Get Pro</button>
+          </div>
+
+          <div class="pricing-card-3">
+            <p class="pricing-category">Team</p>
+            <h2 class="price">$5,999</h2>
+            <p class="pricing-subtitle">up to 10 people</p>
+            <ul>
+              <li>Everything in Pro (10 seats)</li>
+              <li>Dedicated team lounge access</li>
+              <li>Private workshop booking</li>
+              <li>Recruitment booth (1 day)</li>
+              <li>Priority customer support</li>
+            </ul>
+            <button class="register-button">Contact Us</button>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
