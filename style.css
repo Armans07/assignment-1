@@ -214,3 +214,47 @@ li::marker {
   font-weight: bold;
   color: black;
 }
+
+.footer {
+    background-color: #0D1B2A;
+    padding: 40px 80px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 140px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.social-icons img{
+    color: #ffffff;
+    width: 30px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+
+.footer hr {
+    border: none;
+    height: 1px;
+    background-color: #bdbdbd;
+    margin: 30px 0;
+}
+
+.footer-bottom {
+    text-align: center;
+}
+
+.footer-bottom p {
+    color: #bdbdbd;
+    font-size: 15px;
+}
